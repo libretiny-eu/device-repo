@@ -1,0 +1,5 @@
+kv_namespaces = [
+	{ binding = "INDEX", id = "index", preview_id = "index" },
+	{ binding = "BOARDS", id = "boards", preview_id = "boards" },
+	{ binding = "DEVICES", id = "devices", preview_id = "devices" },
+]
