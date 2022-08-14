@@ -86,7 +86,7 @@ export default function DeviceNewPicturesPage({
 	}
 
 	function onFileTypeChange(index: number, event: SelectChangeEvent) {
-		value[index].type = parseInt(event.target.value)
+		value[index].type = event.target.value as PictureType
 		updateState()
 	}
 
